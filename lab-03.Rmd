@@ -9,6 +9,8 @@ output: html_document
 ```{r load-packages, message = FALSE, warning=FALSE}
 library(tidyverse)
 library(ggplot2)
+staff <- read_csv("data/instructional-staff.csv")
+view(staff)
 ```
 
 # Questioning data visualisations
@@ -22,6 +24,10 @@ knitr::include_graphics("img/Speaking-the-world.jpg")
 _Write your comments about image 1 below_
 
 
+the length of the bar for other languages shows the number of speakers however for chinese vs english they made the chinese bar wider which is inconsistent with the rest of the graph and it makes it harder to visualise the differnece. the speach bubbles in the bars are an unnecessary strain on the computer.
+
+
+
 
 
 
@@ -32,7 +38,8 @@ knitr::include_graphics("img/rose-pop-density-total-area-bw.jpg")
 ```
 
 _Write your comments about image 2 below_
-
+there are no numbers so we dont know what the pi chart is representing.
+the radius of the pi chart is inconsistent so you dont know if it is the angle or the radius of the chart which determines its relative size. the colours are a bit too indistinguishable from eachother.
 
 
 
@@ -43,7 +50,7 @@ knitr::include_graphics("img/life-expectancy-rule-of-law.png")
 ```
 
 _Write your comments about image 3 below_
-
+countries are too jumbled over each other so graph is illegible. doesnt explain the units for rule of law. has no scale on the life expectancy. colours are unclear and repeated too many times
 
 
 
@@ -54,7 +61,10 @@ knitr::include_graphics("img/global-income-dist.PNG")
 ```
 
 _Write your comments about image 4 below_
-
+no scale on y axis
+description on y axis is ambiguous
+x axis is logarithmic which is difficult to visualise and is very misleading as it is changing a very elongated graph  into a smooth curve.
+doesnt define developed countries
 
 
 
