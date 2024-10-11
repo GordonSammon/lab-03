@@ -4,7 +4,6 @@ author: "Sophia"
 date: "`r Sys.Date()`"
 output: html_document
 ---
-
 ### Load packages
 
 ```{r load-packages, message = FALSE, warning=FALSE}
@@ -12,7 +11,7 @@ library(tidyverse)
 library(ggplot2)
 ```
 
-
+git config pull.rebase false
 # Questioning data visualisations
 
 ## Image 1
